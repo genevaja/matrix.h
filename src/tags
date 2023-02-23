@@ -1,0 +1,159 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN	Makefile	/^BIN = bin$/;"	m
+CALCULATION_ERROR	s21_matrix.h	8;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CC	gcov.mk	/^CC = gcc$/;"	m
+CC	sanit.mk	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -Wextra -Werror -g -std=c11 -lm -pedantic$/;"	m
+CFLAGS	gcov.mk	/^CFLAGS = -Werror -Wextra -Wall -std=c11$/;"	m
+CFLAGS	sanit.mk	/^CFLAGS = -g -Werror -Wextra -Wall -std=c11 -pedantic$/;"	m
+CHECK_FLAGS	Makefile	/^    CHECK_FLAGS = -lcheck -lm -lpthread$/;"	m
+CHECK_FLAGS	Makefile	/^    CHECK_FLAGS = -lcheck -lpthread -lrt -lm -lsubunit$/;"	m
+CHECK_FLAGS	gcov.mk	/^    CHECK_FLAGS = -lcheck -lm -lpthread -lrt -lsubunit$/;"	m
+CHECK_FLAGS	gcov.mk	/^    CHECK_FLAGS = -lcheck -lm -lpthread$/;"	m
+CHECK_FLAGS	sanit.mk	/^    CHECK_FLAGS = -lcheck -lm -lpthread -lrt -lsubunit$/;"	m
+CHECK_FLAGS	sanit.mk	/^    CHECK_FLAGS = -lcheck -lm -lpthread$/;"	m
+DIR	gcov.mk	/^DIR = gcov$/;"	m
+EQ_FAILURE	s21_matrix.h	11;"	d
+EQ_SUCCESS	s21_matrix.h	10;"	d
+EXEC_GCOV	gcov.mk	/^EXEC_GCOV = $(TEST_OBJS:%.o=%.out) $/;"	m
+EXEC_GCOV	sanit.mk	/^EXEC_GCOV = $(TEST_OBJS:%.o=%.out) $/;"	m
+FAILURE	s21_matrix.h	6;"	d
+GCOV_FLAGS	Makefile	/^GCOV_FLAGS = -fPIC -fprofile-arcs -ftest-coverage$/;"	m
+GCOV_FLAGS	gcov.mk	/^GCOV_FLAGS = -fPIC -fprofile-arcs -ftest-coverage$/;"	m
+GCOV_FLAGS	sanit.mk	/^GCOV_FLAGS = -fPIC -fprofile-arcs -ftest-coverage$/;"	m
+INCL_LIB	Makefile	/^INCL_LIB = -L.$/;"	m
+INCL_LIB	gcov.mk	/^INCL_LIB = -L.$/;"	m
+INCL_LIB	sanit.mk	/^INCL_LIB = -L.$/;"	m
+INCORRECT_MATRIX	s21_matrix.h	7;"	d
+LIB_NAME	Makefile	/^LIB_NAME = s21_matrix.a$/;"	m
+LIB_NAME	gcov.mk	/^LIB_NAME = s21_matrix.a$/;"	m
+LIB_NAME	sanit.mk	/^LIB_NAME = s21_matrix.a$/;"	m
+LIB_OBJS	Makefile	/^LIB_OBJS := $(LIB_SRC:$(SOURCE_DIR)\/%.c=%.o)$/;"	m
+LIB_OUT	Makefile	/^LIB_OUT = s21_matrix.a$/;"	m
+LIB_SRC	Makefile	/^LIB_SRC := $(wildcard $(SOURCE_DIR)\/*.c)$/;"	m
+S21_DECIMAL	Makefile	/^S21_DECIMAL = s21_matrix.a$/;"	m
+SANIT_FLAGS	sanit.mk	/^SANIT_FLAGS = -fsanitize=address$/;"	m
+SOURCE_DIR	Makefile	/^SOURCE_DIR = .$/;"	m
+SRC_DIR	gcov.mk	/^SRC_DIR = .$/;"	m
+SRC_DIR	sanit.mk	/^SRC_DIR = .$/;"	m
+SRC_HEADER_H_	header.h	2;"	d
+SRC_OBJS	gcov.mk	/^SRC_OBJS := $(SRC_SRC:%.c=$(SRC_DIR)\/%.o)$/;"	m
+SRC_OBJS	sanit.mk	/^SRC_OBJS := $(SRC_SRC:%.c=$(SRC_DIR)\/%.o)$/;"	m
+SRC_SRC	gcov.mk	/^SRC_SRC := $(wildcard $(SRC_DIR)\/*.c)$/;"	m
+SRC_SRC	sanit.mk	/^SRC_SRC := $(wildcard $(SRC_DIR)\/*.c)$/;"	m
+START_TEST	tests/s21_calc_comlements_test.c	/^START_TEST(calc_complements_1) {$/;"	f
+START_TEST	tests/s21_calc_comlements_test.c	/^START_TEST(calc_complements_2) {$/;"	f
+START_TEST	tests/s21_calc_comlements_test.c	/^START_TEST(calc_complements_3) {$/;"	f
+START_TEST	tests/s21_calc_comlements_test.c	/^START_TEST(calc_complements_4) {$/;"	f
+START_TEST	tests/s21_create_matrix_test.c	/^START_TEST(create_matrix_1) {$/;"	f
+START_TEST	tests/s21_create_matrix_test.c	/^START_TEST(create_matrix_2) {$/;"	f
+START_TEST	tests/s21_create_matrix_test.c	/^START_TEST(create_matrix_3) {$/;"	f
+START_TEST	tests/s21_create_matrix_test.c	/^START_TEST(create_matrix_4) {$/;"	f
+START_TEST	tests/s21_determinant_test.c	/^START_TEST(determinant_1) {$/;"	f
+START_TEST	tests/s21_determinant_test.c	/^START_TEST(determinant_2) {$/;"	f
+START_TEST	tests/s21_determinant_test.c	/^START_TEST(determinant_3) {$/;"	f
+START_TEST	tests/s21_determinant_test.c	/^START_TEST(determinant_4) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_1) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_10) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_2) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_3) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_4) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_5) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_6) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_7) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_8) {$/;"	f
+START_TEST	tests/s21_eq_matrix_test.c	/^START_TEST(eq_test_9) {$/;"	f
+START_TEST	tests/s21_inverse_matrix_test.c	/^START_TEST(inverse_matrix_1) {$/;"	f
+START_TEST	tests/s21_inverse_matrix_test.c	/^START_TEST(inverse_matrix_2) {$/;"	f
+START_TEST	tests/s21_inverse_matrix_test.c	/^START_TEST(inverse_matrix_3) {$/;"	f
+START_TEST	tests/s21_inverse_matrix_test.c	/^START_TEST(inverse_matrix_4) {$/;"	f
+START_TEST	tests/s21_inverse_matrix_test.c	/^START_TEST(inverse_matrix_5) {$/;"	f
+START_TEST	tests/s21_mult_matrix_test.c	/^START_TEST(mult_1) {$/;"	f
+START_TEST	tests/s21_mult_matrix_test.c	/^START_TEST(mult_2) {$/;"	f
+START_TEST	tests/s21_mult_matrix_test.c	/^START_TEST(mult_3) {$/;"	f
+START_TEST	tests/s21_mult_matrix_test.c	/^START_TEST(mult_4) {$/;"	f
+START_TEST	tests/s21_mult_matrix_test.c	/^START_TEST(mult_5) {$/;"	f
+START_TEST	tests/s21_mult_number_test.c	/^START_TEST(mult_1) {$/;"	f
+START_TEST	tests/s21_mult_number_test.c	/^START_TEST(mult_2) {$/;"	f
+START_TEST	tests/s21_mult_number_test.c	/^START_TEST(mult_3) {$/;"	f
+START_TEST	tests/s21_mult_number_test.c	/^START_TEST(mult_4) {$/;"	f
+START_TEST	tests/s21_mult_number_test.c	/^START_TEST(mult_5) {$/;"	f
+START_TEST	tests/s21_sub_matrix_test.c	/^START_TEST(sub_1) {$/;"	f
+START_TEST	tests/s21_sub_matrix_test.c	/^START_TEST(sub_2) {$/;"	f
+START_TEST	tests/s21_sub_matrix_test.c	/^START_TEST(sub_3) {$/;"	f
+START_TEST	tests/s21_sub_matrix_test.c	/^START_TEST(sub_4) {$/;"	f
+START_TEST	tests/s21_sub_matrix_test.c	/^START_TEST(sub_5) {$/;"	f
+START_TEST	tests/s21_sum_matrix_test.c	/^START_TEST(sum_1) {$/;"	f
+START_TEST	tests/s21_sum_matrix_test.c	/^START_TEST(sum_2) {$/;"	f
+START_TEST	tests/s21_sum_matrix_test.c	/^START_TEST(sum_3) {$/;"	f
+START_TEST	tests/s21_sum_matrix_test.c	/^START_TEST(sum_4) {$/;"	f
+START_TEST	tests/s21_sum_matrix_test.c	/^START_TEST(sum_5) {$/;"	f
+START_TEST	tests/s21_transpose_test.c	/^START_TEST(transpose_1) {$/;"	f
+START_TEST	tests/s21_transpose_test.c	/^START_TEST(transpose_2) {$/;"	f
+START_TEST	tests/s21_transpose_test.c	/^START_TEST(transpose_3) {$/;"	f
+START_TEST	tests/s21_transpose_test.c	/^START_TEST(transpose_4) {$/;"	f
+SUCCESS	s21_matrix.h	5;"	d
+TEST_DIR	Makefile	/^TEST_DIR = .\/tests$/;"	m
+TEST_DIR	gcov.mk	/^TEST_DIR = .\/tests$/;"	m
+TEST_DIR	sanit.mk	/^TEST_DIR = .\/tests$/;"	m
+TEST_EXEC	Makefile	/^TEST_EXEC = $(TEST_OBJS:%.o=%.out)$/;"	m
+TEST_OBJS	Makefile	/^TEST_OBJS := $(TEST_SRC:$(TEST_DIR)\/%.c=%.o)$/;"	m
+TEST_OBJS	gcov.mk	/^TEST_OBJS := $(TEST_SRC:$(TEST_DIR)\/%.c=%.o)$/;"	m
+TEST_OBJS	sanit.mk	/^TEST_OBJS := $(TEST_SRC:$(TEST_DIR)\/%.c=%.o)$/;"	m
+TEST_SRC	Makefile	/^TEST_SRC := $(wildcard $(TEST_DIR)\/*.c)$/;"	m
+TEST_SRC	gcov.mk	/^TEST_SRC := $(wildcard $(TEST_DIR)\/*.c)$/;"	m
+TEST_SRC	sanit.mk	/^TEST_SRC := $(wildcard $(TEST_DIR)\/*.c)$/;"	m
+browser	gcov.mk	/^	browser = firefox$/;"	m
+browser	gcov.mk	/^	browser = open$/;"	m
+calculate	s21_mult_matrix.c	/^int calculate(matrix_t *A, matrix_t *B, matrix_t *result) {$/;"	f
+calculate_mult_num	s21_mult_number.c	/^int calculate_mult_num(matrix_t *A, double number, matrix_t *result) {$/;"	f
+calculate_sub	s21_sub_matrix.c	/^int calculate_sub(matrix_t *A, matrix_t *B, matrix_t *result) {$/;"	f
+calculate_sum	s21_sum_matrix.c	/^int calculate_sum(matrix_t *A, matrix_t *B, matrix_t *result) {$/;"	f
+check_matrix	add_fn.c	/^int check_matrix(matrix_t *A) {$/;"	f
+check_memory	add_fn.c	/^int check_memory(int rows, double **matrix) {$/;"	f
+columns	s21_matrix.h	/^  int columns;$/;"	m	struct:matrix_struct
+main	tests/s21_calc_comlements_test.c	/^int main() {$/;"	f
+main	tests/s21_create_matrix_test.c	/^int main() {$/;"	f
+main	tests/s21_determinant_test.c	/^int main() {$/;"	f
+main	tests/s21_eq_matrix_test.c	/^int main() {$/;"	f
+main	tests/s21_inverse_matrix_test.c	/^int main() {$/;"	f
+main	tests/s21_mult_matrix_test.c	/^int main() {$/;"	f
+main	tests/s21_mult_number_test.c	/^int main() {$/;"	f
+main	tests/s21_sub_matrix_test.c	/^int main() {$/;"	f
+main	tests/s21_sum_matrix_test.c	/^int main() {$/;"	f
+main	tests/s21_transpose_test.c	/^int main() {$/;"	f
+matrix	s21_matrix.h	/^  double** matrix;$/;"	m	struct:matrix_struct
+matrix_output	add_fn.c	/^void matrix_output(matrix_t *A) {$/;"	f
+matrix_struct	s21_matrix.h	/^typedef struct matrix_struct {$/;"	s
+matrix_t	s21_matrix.h	/^} matrix_t;$/;"	t	typeref:struct:matrix_struct
+mem_alloc	add_fn.c	/^double **mem_alloc(int rows, int columns) {$/;"	f
+minor_matrix	add_fn.c	/^double **minor_matrix(matrix_t *A, int row, int column) {$/;"	f
+rows	s21_matrix.h	/^  int rows;$/;"	m	struct:matrix_struct
+s21_calc_complements	s21_calc_complements.c	/^int s21_calc_complements(matrix_t *A, matrix_t *result) {$/;"	f
+s21_create_matrix	s21_create_matrix.c	/^int s21_create_matrix(int rows, int columns, matrix_t *result) {$/;"	f
+s21_determinant	s21_determinant.c	/^int s21_determinant(matrix_t *A, double *result) {$/;"	f
+s21_eq_matrix	s21_eq_matrix.c	/^int s21_eq_matrix(matrix_t *A, matrix_t *B){$/;"	f
+s21_inverse_matrix	s21_inverse_matrix.c	/^int s21_inverse_matrix(matrix_t *A, matrix_t *result) {$/;"	f
+s21_mult_matrix	s21_mult_matrix.c	/^int s21_mult_matrix(matrix_t *A, matrix_t *B, matrix_t *result) {$/;"	f
+s21_mult_number	s21_mult_number.c	/^int s21_mult_number(matrix_t *A, double number, matrix_t *result) {$/;"	f
+s21_remove_matrix	s21_remove_matrix.c	/^void s21_remove_matrix(matrix_t *result) {$/;"	f
+s21_sub_matrix	s21_sub_matrix.c	/^int s21_sub_matrix(matrix_t *A, matrix_t *B, matrix_t *result) {$/;"	f
+s21_sum_matrix	s21_sum_matrix.c	/^int s21_sum_matrix(matrix_t *A, matrix_t *B, matrix_t *result) {$/;"	f
+s21_transpose	s21_transpose.c	/^int s21_transpose(matrix_t *A, matrix_t *result) {$/;"	f
+sprintf_test	tests/s21_calc_comlements_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_create_matrix_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_determinant_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_eq_matrix_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_inverse_matrix_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_mult_matrix_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_mult_number_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_sub_matrix_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_sum_matrix_test.c	/^Suite *sprintf_test(void) {$/;"	f
+sprintf_test	tests/s21_transpose_test.c	/^Suite *sprintf_test(void) {$/;"	f
+transpose	s21_transpose.c	/^int transpose(matrix_t *A, matrix_t *result) {$/;"	f
